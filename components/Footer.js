@@ -138,7 +138,7 @@ export default function Footer() {
 
             <ul className="space-y-4">
               <li className="text-forge-gray text-sm">
-                1137 Fewster Dr, Mississauga, ON L4W 1A2, Canada
+                1125 Crestlawn Dr, Mississauga, ON L4W 1A7, Canada
               </li>
 
               <li>

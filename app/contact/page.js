@@ -56,8 +56,8 @@ ${form.message}
     {
       icon: `<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full"><path d="M10 2a5.5 5.5 0 00-5.5 5.5c0 4.25 5.5 10.5 5.5 10.5s5.5-6.25 5.5-10.5A5.5 5.5 0 0010 2z" stroke="currentColor" strokeWidth="1.3"/><circle cx="10" cy="7.5" r="2" stroke="currentColor" strokeWidth="1.3"/></svg>`,
       label: 'Address',
-      value: 'J9GH+W9 Mississauga',
-      sub: 'Ontario, Canada',
+      value: '1125 Crestlawn Dr',
+      sub: 'Mississauga, ON L4W 1A7, Canada',
       href: 'https://maps.app.goo.gl/VudHFybQcvXT9cG66',
     },
     {
@@ -229,7 +229,7 @@ ${form.message}
               {/* Map */}
               <div id="map" className="relative flex-1 min-h-[300px] overflow-hidden border border-forge-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11552.01308705195!2d-79.63150151729734!3d43.627290844956114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b389c249543e7%3A0x48b2280756c10a81!2sAli%20Motors!5e0!3m2!1sen!2s!4v1778279284530!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.9197110020905!2d-79.62518!3d43.62902999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3898d4f1dd15%3A0xb7fe03d1795ef26e!2s1125%20Crestlawn%20Dr%2C%20Mississauga%2C%20ON%20L4W%201A7%2C%20Canada!5e0!3m2!1sen!2s!4v1778283916413!5m2!1sen!2s"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(1) invert(1) contrast(0.8)' }}
