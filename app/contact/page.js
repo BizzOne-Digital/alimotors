@@ -10,31 +10,31 @@ export default function ContactPage() {
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value })
 
-  const handleSubmit = (e) => {
+ const handleSubmit = (e) => {
   e.preventDefault()
   setLoading(true)
 
-  const phoneNumber = '+19052061313' // apna WhatsApp number without +
+  const phoneNumber = '19052061313'
 
   const text = `
-🚗 New Booking Request
+New Booking Request
 
-👤 Name: ${form.name}
-📞 Phone: ${form.phone}
-📧 Email: ${form.email}
-🛠 Service: ${form.service}
+Name: ${form.name}
+Phone: ${form.phone}
+Email: ${form.email}
+Service: ${form.service}
 
-📝 Message:
+Message:
 ${form.message}
   `
 
-  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`
+  const smsURL = `sms:${phoneNumber}?body=${encodeURIComponent(text)}`
 
   setTimeout(() => {
     setLoading(false)
     setSubmitted(true)
 
-    window.open(whatsappURL, '_blank')
+    window.open(smsURL, '_self')
   }, 1000)
 }
 
