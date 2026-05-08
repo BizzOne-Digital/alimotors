@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1800&q=80"
+          src="https://i.postimg.cc/BQ6f5LJx/0560ff84-2306-4507-ba6b-addb0d24b55b.png"
           alt="AutoForge Workshop"
           fill
           className="object-cover object-center"
