@@ -20,7 +20,7 @@ export default function AboutSection() {
             {/* Accent image */}
             <div className="absolute -bottom-8 -right-6 w-40 h-40 sm:w-52 sm:h-52 border-4 border-forge-dark overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1632823471565-1ecdf5c6da63?w=400&q=80"
+                src="https://images.unsplash.com/photo-1635294084898-9a7ed6559eb4?q=80&w=850&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Mechanic at work"
                 fill
                 className="object-cover"
