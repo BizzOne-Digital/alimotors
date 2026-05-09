@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const metadata = {
   title: 'Gallery | AutoForge Workshop',
-  description: 'See our workshop, team, and completed projects. Quality auto repair work by AutoForge Workshop Karachi.',
+  description: 'See our workshop, team, and completed projects. Quality auto repair work by AutoForge Workshop.',
 }
 
 const galleryImages = [

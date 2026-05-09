@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'About Us | AutoForge Workshop',
-  description: 'Learn about AutoForge Workshop — our story, mission, and the certified team behind Karachi\'s trusted auto repair center.',
+  title: 'About Us | AliMotors Workshop',
+  description: 'Discover AutoForge Workshop, our mission, values, and the expert team delivering trusted auto repair services..',
 }
 
 const values = [
@@ -47,7 +47,7 @@ export default function AboutPage() {
             ABOUT<br/><span className="text-gradient-red">AUTOFORGE</span>
           </h1>
           <p className="text-forge-light max-w-xl leading-relaxed">
-            Serving Karachi drivers with precision, honesty and expertise since 2008.
+            Delivering trusted automotive care with precision and expertise since 2008.
           </p>
         </div>
       </section>
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 <span className="text-gradient-red">GARAGE.</span>
               </h2>
               <p className="text-forge-gray leading-relaxed mb-5">
-                AutoForge Workshop was founded in 2008 by Master Technician Khalid Hassan with a single goal: provide Karachi drivers with workshop-quality service they can actually trust. What began as a 2-bay operation has grown into a state-of-the-art facility with 12 certified technicians and the latest diagnostic equipment.
+               AutoForge Workshop was founded in 2008 with one goal: to provide drivers with professional auto repair services they can truly trust. What started as a small 2-bay garage has grown into a modern automotive workshop with certified technicians and advanced diagnostic equipment.
               </p>
               <p className="text-forge-gray leading-relaxed mb-8">
                 We service all makes and models — from Japanese and Korean economy cars to European performance vehicles and American SUVs. No job is too small or too complex for our team.
@@ -110,7 +110,7 @@ export default function AboutPage() {
           <div className="border border-forge-border p-10 mb-12 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-1 h-full bg-forge-red"/>
             <p className="font-display text-2xl sm:text-3xl text-white leading-tight tracking-wide max-w-3xl">
-              "TO DELIVER WORLD-CLASS AUTOMOTIVE CARE WITH HONESTY, SPEED, AND TECHNICAL MASTERY — KEEPING KARACHI MOVING."
+              "To deliver world-class automotive care with honesty, efficiency, and technical expertise — keeping drivers moving with confidence."
             </p>
           </div>
 

@@ -6,8 +6,8 @@ import Testimonials from '../components/Testimonials'
 import CTA from '../components/CTA'
 
 export const metadata = {
-  title: 'AutoForge Workshop | Professional Auto Repair Karachi',
-  description: 'Expert car repair and maintenance in Karachi. Engine repair, diagnostics, tire change, oil service and more by certified technicians.',
+  title: 'Ali Motors Workshop | Premium Auto Repair Solutions',
+  description: 'Expert car repair and maintenance. Engine repair, diagnostics, tire changes, oil service, and more by certified technicians.',
 }
 
 export default function HomePage() {

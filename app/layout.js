@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata = {
-  title: 'AutoForge Workshop | Professional Auto Repair Karachi',
-  description: 'Expert car repair and maintenance in Karachi. Engine repair, diagnostics, tire change, oil service and more by certified technicians.',
+  title: 'Ali motors Workshop | Premium Auto Repair Solutions',
+  description: 'Expert vehicle repair and maintenance services, including engine repair, diagnostics, tire changes, oil service, and more.',
 }
 
 export default function RootLayout({ children }) {
